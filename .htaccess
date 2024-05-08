@@ -4,3 +4,4 @@ RewriteRule ^([a-zA-Z0-9]+)$ index.php?f=$1
 <IfModule mod_headers.c>
     Header set X-Robots-Tag: "noindex, nofollow"
 </IfModule>
+
